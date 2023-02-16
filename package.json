@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/TheUntraceable/AntiGhostPinger/issues"
   },
-  "homepage": "https://github.com/TheUntraceable/AntiGhostPinger#readme"
+  "homepage": "https://github.com/TheUntraceable/AntiGhostPinger#readme",
+  "dependencies": {
+    "@theuntraceable/discord-rpc": "^4.0.8"
+  }
 }
