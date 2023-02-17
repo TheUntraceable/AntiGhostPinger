@@ -126,7 +126,7 @@ client.on("MESSAGE_UPDATE", async (payload) => {
     if (author.id === client.user.id) return;
     if (
         payload.message.mention_everyone ||
-        payload.message.mentions.find(
+        payload.message.mentions?.find(
             (mention) => mention.id === client.user.id
         )
     ) {
