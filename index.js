@@ -144,7 +144,7 @@ client.on("MESSAGE_UPDATE", async (payload) => {
                 } (${author.id}): ${message.content.replace(
                     `<@${client.user.id}>`,
                     `@${client.user.username}#${client.user.discriminator}`
-                )} ${chalk.red.bold("===>")} ${chalk.hex(payload.message.author_color)(payload.message.content)}`
+                )} ${chalk.red.bold("===>")} ${chalk.hex(author_color)(payload.message.content)}`
             )
     );
 });
